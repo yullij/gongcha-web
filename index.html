@@ -20,6 +20,8 @@
   <link rel="stylesheet" type="text/css" href="/css/jquery.mCustomScrollbar.css">
   <link rel="stylesheet" type="text/css" href="/css/slide.css">
   <link rel="stylesheet" type="text/css" href="/css/media.css">
+  <link rel="stylesheet" type="text/css" href="/css/global.css">
+  
 
   <script defer src="./js/main.js"></script>
   <script src="./js/jquery.mousewheel.min.js"></script>
@@ -53,8 +55,8 @@
   
 </head>
 
-
 <body>
+	
 	<div id="header">
 			<div class="header_inner">
 				<h1 class="logo"><a href="index.html"><img src="./img/logo.png" alt=""></a></h1>
@@ -117,6 +119,9 @@
 					<li><a href="#">가맹점찾기<img src="/img/search.png" alt=""></a></li>
 				</ul>
 				
+				<!-- responsive menu icon -->
+				<div class="bx bx-menu" id="menu-icon"></div>
+
 			</div>
 	</div>
 
@@ -143,14 +148,14 @@
 
 	<div id="contents">
 		<div class="tp-Topics">
-			<h2 class="tp-Heading"><span class="tp-HeadingMain">New Topics</span><span class="tp-HeadingSub">What's new</span></h2>
+			<h2 class="tp-Heading"><span class="tp-HeadingMain">New Topics</span><div class="line"></div><br><span class="tp-HeadingSub">What's new</span></h2>
 			<div class="tp-TopicsInner">
 				<div class="tp-TopicsSliderEl swiper-slide swiper-slide-prev" role="group" aria-label="1 / 5" style="margin-right: 20px;">
 					<a class="tp-TopicsSliderLink" href="">
-											<figure class="tp-TopicsSliderImg">
-												<img src="/img/topic1.png" alt="">
-												<figcaption class="tp-TopicsSliderCaption">공차코리아, 티벤처 캠페인 신메뉴 ‘레드벨벳’ 2종 출시</figcaption>
-											</figure>
+						<figure class="tp-TopicsSliderImg">
+							<img src="/img/topic1.png" alt="">
+							<figcaption class="tp-TopicsSliderCaption">공차코리아, 티벤처 캠페인 신메뉴 ‘레드벨벳’ 2종 출시</figcaption>
+						</figure>
 					</a>
 				</div>
 				<div class="tp-TopicsSliderEl swiper-slide swiper-slide-active" role="group" aria-label="2 / 5" style="margin-right: 20px;">
@@ -189,7 +194,7 @@
 			<!-- notice bar -->
 			<div class="notice-line">
 				<div class="notice-inner">
-					<h2 class="tp-Heading"><span class="tp-HeadingMain">Tea Recipe</span><span class="tp-HeadingSub">How do you make it?</span></h2>
+					<h2 class="tp-Heading"><span class="tp-HeadingMain">Tea Recipe</span><div class="line"></div><br><span class="tp-HeadingSub">How do you make it?</span></h2>
 					<div class="toggle-tea">
 						<div class="btn">펼쳐보기</div>
 					</div>
@@ -330,6 +335,7 @@
 	</div>
 
 	<!-- script -->
+	 
 	<script type="text/javascript">
 		window.addEventListener('load',function(){
 			setTimeout(function() {

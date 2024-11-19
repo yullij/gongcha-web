@@ -250,19 +250,13 @@
   letter-spacing: 2px;
   position: relative;
 }
-.tp-HeadingMain::before {
+.tp-Topics .line::before {
   content: "";
-  display: block;
-  width:80px; 
-  height:1px; 
-  position:absolute;
-  top: 80px; 
-  left: 500px;
-  align-items: center;
-  justify-content: center;
+  display:block;
+  width: 100px;
+  height: .5px;
   background: #000;
-  text-decoration:underline;
-
+  margin: 0 auto;
 }
 .tp-HeadingSub {
   display: block;
